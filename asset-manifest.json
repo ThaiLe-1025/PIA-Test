@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/PIA-Test/static/css/main.ce14428d.css",
+    "main.js": "/PIA-Test/static/js/main.12b82694.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/PIA-Test/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/LCT_70F.3dm": "/PIA-Test/static/media/LCT_70F.ef017c2070ebf809763a.3dm",
+    "static/media/rac.ifc": "/PIA-Test/static/media/rac.e21e3d92af792f0bcf07.ifc",
+    "static/media/KMW.3dm": "/PIA-Test/static/media/KMW.5e0ea7317f7c6954c16e.3dm",
+    "static/media/Rhino_Logo.3dm": "/PIA-Test/static/media/Rhino_Logo.c93bd158ebddca1f8ff8.3dm",
+    "static/media/imgKMW.png": "/PIA-Test/static/media/imgKMW.53fa39894f7b9cc7c75a.png",
+    "static/media/imgTest.png": "/PIA-Test/static/media/imgTest.74051f7f818d1f1ae68d.png",
+    "static/media/imgRac.png": "/PIA-Test/static/media/imgRac.1dd27660410d815d0cce.png",
+    "static/media/Test.3dm": "/PIA-Test/static/media/Test.fb18cf6b6bd85068685e.3dm",
+    "index.html": "/PIA-Test/index.html",
+    "main.ce14428d.css.map": "/PIA-Test/static/css/main.ce14428d.css.map",
+    "main.12b82694.js.map": "/PIA-Test/static/js/main.12b82694.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/PIA-Test/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce14428d.css",
+    "static/js/main.12b82694.js"
+  ]
+}
