@@ -1,0 +1,9 @@
+.wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: var(--backgroud-secondary);
+  pointer-events: all;
+  display: flex;
+  flex-direction: column;
+}

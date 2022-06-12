@@ -1,0 +1,18 @@
+.icon-item {
+  font-size: 1.4rem !important;
+}
+.label-item {
+  * {
+    font-size: 1.5rem !important;
+  }
+}
+.tree-item {
+  * {
+    &:hover {
+      background-color: transparent !important;
+    }
+  }
+}
+.tree-checkbox {
+  padding: 0 6px !important;
+}

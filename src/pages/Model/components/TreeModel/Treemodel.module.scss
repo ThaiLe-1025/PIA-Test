@@ -1,0 +1,62 @@
+$hTree: 380px;
+$wTree: 300px;
+.tree-wrapper {
+  position: absolute;
+  display: inline-flex;
+  flex-direction: row;
+  height: $hTree;
+  width: $wTree;
+  left: 20px;
+  top: 20px;
+  padding: 5px 5px;
+  pointer-events: none;
+
+  .btn-tree {
+    height: 35px;
+    width: 35px;
+    left: 0;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 1.8rem;
+    border-radius: var(--default-border-radius);
+    box-shadow: var(--default-box-shadow);
+    pointer-events: all;
+    &:hover {
+      color: var(--primary);
+    }
+    > span {
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .tree {
+    position: relative;
+    display: flex;
+    flex: 1;
+    padding: 15px 3px;
+    margin-left: 7px;
+    border-radius: var(--default-border-radius);
+    box-shadow: var(--default-box-shadow);
+    background-color: var(--white-transparent);
+    transition: var(--default-effect-time);
+    pointer-events: all;
+    > ul {
+      height: 100%;
+    }
+  }
+}
+
+.tree-items {
+  * {
+    font-size: 1.6rem;
+  }
+}
+.active {
+  color: var(--primary);
+}

@@ -1,0 +1,88 @@
+@import "normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+:root {
+  //colors
+  --primary: #eb5757;
+  --secondary: #ffc3c3;
+  --backgroud: #eff1f3;
+  --backgroud-secondary: #fafafa;
+  --viewer: #eef1f3;
+  --black: #000;
+  --white: #fff;
+  --white-transparent: rgba(255, 255, 255, 0.5);
+  --white-transparent-2: rgba(255, 255, 255, 0.2);
+  --orange: #f9c761;
+  --green: rgb(98, 173, 117);
+  --gren-2: #318647;
+  --blue: #62b1d8;
+  --purple: #7356eb;
+  --grey: #eaebef;
+  --active-color: #4caf50;
+  --grey-transparent: rgba(22, 24, 35, 0.34);
+
+  --text-color: #343434;
+  --button-color: #3a3a3a;
+  --button-color-hover: #808080;
+  --button-color-active: var(--primary);
+  --default-box-shadow: rgb(0 0 0 / 12%) 0px 2px 12px;
+  --default-box-shadow-2: rgba(0, 0, 0, 0.25) -20px 0px 30px 15px;
+
+  // parameters #4caf50
+  --default-sidebar-width: 140px;
+  --default-sidebar-width-collapse: 40px;
+  --default-header-height: 45px;
+  --default-border-radius: 6px;
+  --default-blur: 2px;
+
+  //Effect
+  --default-effect-time: 0.3s;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // height: 100%;
+  // overflow: hidden;
+  // height: 100%;
+  // width: 100%;
+  color: --text-color;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+p {
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -o-user-select: text;
+  user-select: text;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizespeed;
+  background-color: var(--backgroud);
+  color: var(--text-color);
+  pointer-events: none;
+}
+button,
+input,
+[tabindex] {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+a[href] {
+  color: var(--text-color);
+  text-decoration: none;
+}

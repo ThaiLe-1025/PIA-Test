@@ -1,0 +1,33 @@
+.wrapper {
+  width: 100%;
+  height: var(--default-header-height);
+  pointer-events: all;
+  background-color: var(--backgroud);
+  display: flex;
+  flex-shrink: 0;
+  align-content: center;
+  justify-content: space-between;
+  padding-right: 25px;
+  border-bottom: solid 1px var(--grey);
+}
+.project-title {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-left: 50px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.header-btn {
+  font-size: 1.8rem;
+  height: 100%;
+  padding: 1px 5px;
+  cursor: pointer;
+  + .header-btn {
+    margin-left: 20px;
+  }
+  &:hover {
+    color: var(--primary);
+    transform: scale(1.1);
+  }
+}

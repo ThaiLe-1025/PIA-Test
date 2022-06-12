@@ -1,0 +1,75 @@
+$wSideBar: 260px;
+.wrapper {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.hide-sidepanel {
+  width: 0 !important;
+  transition: all var(--default-effect-time);
+  * {
+    width: 0;
+    display: none;
+  }
+}
+.sidepanel {
+  position: absolute;
+  background-color: var(--backgroud-secondary);
+  right: 0;
+  width: $wSideBar;
+  height: 100%;
+  pointer-events: all;
+
+  .hide {
+    display: none;
+  }
+  .btn-sidepanel {
+    position: absolute;
+    top: 50%;
+    right: 2px;
+    transform: rotateZ(180deg);
+    display: block;
+    width: fit-content;
+    z-index: 11;
+    pointer-events: all;
+    cursor: pointer;
+
+    * {
+      position: relative;
+      display: block;
+      width: 18px;
+      height: 18px;
+      padding: 5px;
+    }
+    &:hover {
+      font-size: 1.9rem;
+      color: var(--primary);
+      scale: 1.2;
+    }
+  }
+  .btn-close {
+    position: absolute;
+    font-size: 1.6rem;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 11;
+    width: fit-content;
+    height: fit-content;
+    color: var(--primary);
+    cursor: pointer;
+    * {
+      padding: 3px;
+    }
+    &:hover {
+      font-size: 1.9rem;
+      color: var(--primary);
+      scale: 1.1;
+    }
+  }
+  .panel-item {
+    height: 100%;
+  }
+}
